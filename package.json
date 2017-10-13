@@ -1,0 +1,28 @@
+{
+  "name": "simple-bmos-downloader",
+  "version": "0.0.1",
+  "description": "Download files from Bluemix Object Storage",
+  "main": "download.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ibm-watson-data-lab/simple-bmos-downloader"
+  },
+  "dependencies": {
+    "debug": "^3.1.0",
+    "dotenv": "^4.0.0",
+    "fs": "0.0.1-security",
+    "lodash": "^4.17.4",
+    "restler": "^3.4.0",
+    "util": "^0.10.3"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-jscs": "^3.0.1"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "author": "Patrick Titzler (ptitzler@us.ibm.com)",
+  "license": "Apache-2.0"
+}
